@@ -1,0 +1,6 @@
+genfscon proc /net/dev u:object_r:proc_net_devroute:s0
+genfscon proc /net/if_inet6 u:object_r:proc_net_devroute:s0
+genfscon proc /net/ipv6_route u:object_r:proc_net_devroute:s0
+genfscon proc /net/route u:object_r:proc_net_devroute:s0
+genfscon proc /sys/kernel/deny_new_usb u:object_r:proc_security:s0
+

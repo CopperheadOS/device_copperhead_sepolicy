@@ -1,0 +1,3 @@
+r_dir_file({ appdomain -ephemeral_app -isolated_app }, proc_net_devroute)
+#allow { appdomain -ephemeral_app -untrusted_v2_app -untrusted_v2_base_app } vendor_framework_file:file execute;
+#allow { appdomain -ephemeral_app } vendor_framework_file:file execute;

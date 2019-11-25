@@ -1,0 +1,1 @@
+allow dhcp proc_net_devroute:file write;

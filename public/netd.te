@@ -1,0 +1,2 @@
+r_dir_file(netd, proc_net_devroute)
+allow netd proc_net_devroute:file rw_file_perms;

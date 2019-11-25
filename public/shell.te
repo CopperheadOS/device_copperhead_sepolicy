@@ -1,0 +1,2 @@
+allow shell proc_vmstat:file r_file_perms;
+r_dir_file(shell, proc_net_devroute)

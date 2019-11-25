@@ -1,0 +1,1 @@
+allow netutils_wrapper proc_net_devroute:file { open read getattr };

@@ -1,0 +1,2 @@
+allow dumpstate proc_net_devroute:file r_file_perms;
+allow dumpstate proc_vmstat:file r_file_perms;
